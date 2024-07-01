@@ -28,7 +28,12 @@ print(list)
 print(list.index(200))
 
 # Slice
+# [start:stop:step]
 print(list[1:-1])
+
+# Reverse
+print("Reverse is", [1, 2, 3][::-1])
+print("Reverse is", ["a", "b", "c"][::-1])
 
 print("------------")
 
